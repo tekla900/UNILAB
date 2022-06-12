@@ -1,6 +1,9 @@
 * {
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
+
 body {
 	background: #f5f6f7;
 	color: #1b1b32;
@@ -39,6 +42,7 @@ nav > ul > li {
     color: #343638;
     margin: 0 0.2rem;
     padding: 0.2rem;
+    padding-top: 20px;
     display: block;
     font-size: 11px;
 }
@@ -117,3 +121,143 @@ button {
 article > p, article > span, .fa-clock {
     color: #a6adb4;
 } 
+
+#news-header {
+    display: flex;
+    height: 70px;  
+    flex-direction: row;
+    justify-content: flex-end;
+}
+  
+#box-1 {
+    width: 50%;
+    height: 100%;
+}
+  
+#box-2 {
+    width: 50%;
+    height: 100%;
+}
+  
+#box-2 > p {
+    text-align: right;
+    padding-right: 50px;
+    font-size: 20px;
+    color: gray;
+    font-weight: bold;
+}
+  
+
+a:hover {
+    color: black;
+}
+
+
+/* FOOTER */
+footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: #a6adb4;
+    display: flex;
+}
+
+footer div {
+    margin-left: 5%;
+    padding: 50px 0;
+}
+
+.col-4 {
+    margin-right: 10%;
+}
+  
+footer ul {
+    list-style: none;
+}
+  
+footer li {
+    margin-bottom: 4px;
+    color: #cbd0d3;
+    font-size: 13px;
+}
+
+footer h3 {
+    color: white;
+    font-size: 13px;
+}
+
+footer p {
+    color: #cbd0d3;
+    font-size: 11px;
+}
+  
+footer input {
+    width: 100%;
+    border: none;
+}
+
+i {
+    color: white;
+    margin-left: 4px;
+}
+
+/* GRID CONTAINER OF SECTION HAPPENING NOW */
+.parent {
+    padding-top: 20%;
+    margin: auto 0;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-gap: 60px;
+    grid-row-gap: 60px;
+    width: 100%;
+}
+
+#happening-now {
+    margin-left: 200px;
+}
+  
+.div1 { 
+    grid-area: 1 / 1 / 4 / 4; 
+    background-image: url("./happening\ now/image.png");
+    height: 430px;
+    color: white;
+}
+  
+.div1 h2, .div2 h2{
+    padding-top: 40%;
+}
+
+
+.div1 i, .div2 i {
+    padding-top: 5%;
+}
+
+.large-article {
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 4%;
+}
+
+.div2 { 
+    grid-area: 4 / 1 / 7 / 4; 
+    background-image: url("./happening\ now/image\ (1).png");
+    color: white;
+}
+  
+.div3 { 
+    grid-area: 1 / 4 / 3 / 7; 
+    
+}
+  
+.div4 { 
+    grid-area: 3 / 4 / 5 / 7; 
+}
+  
+.div5 { 
+    grid-area: 5 / 4 / 7 / 7; 
+}
+
+.div3 img, .div4 img, .div5 img {
+    max-width: 100%;
+}
