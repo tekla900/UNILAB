@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+	background: #f5f6f7;
+	color: #1b1b32;
+	font-family: Helvetica;
+	margin: 0;
+}
+
+/* NAVBAR */
+header {
+    height: 51px;
+    width: 100%;
+    background-color: #f6f8f9;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: fixed;
+    top: 0;
+}
+
+h1 {
+    color:#fa6980;
+    font-size: 13;
+}
+
+nav {
+    width: 50%;
+    max-width: 300px;
+    height: 50px;
+}
+
+nav > ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav > ul > li {
+    color: #343638;
+    margin: 0 0.2rem;
+    padding: 0.2rem;
+    padding-top: 20px;
+    display: block;
+    font-size: 11px;
+}
+
+#profile-pic {
+    object-fit: cover;
+}
+
+.bold {
+    font-weight: bolder;
+}
+
+/* WORLD NEWS SECTION FLEXBOX */
+
+.world-news {
+    display: flex;
+    height: 590px;
+    width: 80%;
+    margin: 0 auto; 
+}
+
+.flex1 {
+    width: 50%;
+    background-color: brown;
+}
+
+.flex2 {
+    width: 50%;
+    background-color: orange;
+}
+
+/* PARAGRAPH SECTION FLEXBOX */
+.flex-box {
+    /* position: fixed; */
+    display: flex;
+    /* top: 640px; */
+    height: 256px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.paragraph1 {
+    width: 30%;
+    background-color: orange;
+}
+
+.paragraph2 {
+    width: 70%;
+    background-color: brown;
+}
+
+/* MAIN ARTICLE FLEXBOX */
+.main-article {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+    height: 830px;
+}
+
+.image, .article {
+    height: 50%;
+    width: 100%;
+}
+
+/* FOOTER */
+footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: #a6adb4;
+    display: flex;
+    height: 200px;
+}
+
+footer div {
+    margin-left: 5%;
+    padding: 50px 0;
+}
+
+.col-4 {
+    margin-right: 10%;
+}
+  
+footer ul {
+    list-style: none;
+}
+  
+footer li {
+    margin-bottom: 4px;
+    color: #cbd0d3;
+    font-size: 13px;
+}
+
+footer h3 {
+    color: white;
+    font-size: 13px;
+}
+
+footer p {
+    color: #cbd0d3;
+    font-size: 11px;
+}
+  
+footer input {
+    width: 100%;
+    border: none;
+}
+
+i {
+    color: white;
+    margin-left: 4px;
+}
