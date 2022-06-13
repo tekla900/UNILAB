@@ -58,7 +58,7 @@ nav > ul > li {
 .news {
     display: flex;
     flex-direction: row;
-    height: 601px;
+    height: 600px;
     position: relative;
     top: 50px;
 }
@@ -160,6 +160,7 @@ footer {
     width: 100%;
     background: #a6adb4;
     display: flex;
+    height: 200px;
 }
 
 footer div {
@@ -201,9 +202,10 @@ i {
     margin-left: 4px;
 }
 
+
 /* GRID CONTAINER OF SECTION HAPPENING NOW */
 .parent {
-    padding-top: 20%;
+    padding-top: 40px;
     margin: auto 0;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
@@ -214,7 +216,8 @@ i {
 }
 
 #happening-now {
-    margin-left: 200px;
+    margin-left: 175px;
+    padding: 10% 0;
 }
   
 .div1 { 
@@ -258,6 +261,55 @@ i {
     grid-area: 5 / 4 / 7 / 7; 
 }
 
-.div3 img, .div4 img, .div5 img {
+.div3 img, .div4 img, .div5 img, img {
     max-width: 100%;
+}
+
+.section-flex {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+
+
+/* SECTION TRENDING */
+
+#trending {
+    /* position: absolute;
+    top: 650px; */
+    padding-top: 90px;
+}
+#trending > h2 {
+    padding-left: 175px;
+}
+
+/* #this {
+    background-color: #1394d4;
+} */
+
+
+.container-img {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.box1, .box2, .box3 {
+    margin: 10px;
+}
+
+.trending-boxes {
+    background-color: white;
+    width: 360px;
+    padding: 30px;
+}
+
+.container-img h2 {
+    margin-bottom: 10px;
+}
+
+.container-img p, .container-img span {
+    margin-bottom: 10px;
+    color: #a6adb4;
 }
