@@ -67,14 +67,68 @@ nav > ul > li {
 
 .flex1 {
     width: 50%;
-    background-color: brown;
+    background-image: url(./world\ news/image.png);
+    height: 590px;
+    padding-top: 15%;
+    color: white;
+    text-align: center;
+}
+
+.flex1 h2 {
+    margin-bottom: 2%;
+    size: 32px;
+}
+
+.flex1 hr {
+    width: 20%;
+    margin: 0 auto;
+    background-color: #fa6980;
+    height: 2px;
+    border: none;
+}
+
+.flex1 p {
+    margin-top: 5%;
+    margin-bottom: 10%;
+    padding: 0 15%;
 }
 
 .flex2 {
     width: 50%;
-    background-color: orange;
+    height: 590px;
+    background-color: white;
+    padding-top: 15%;
 }
 
+/* STYLES FOR FORM */
+form input, form label, form button {
+    width: 360px;
+    height: 40px;
+    display: block;
+    margin: auto auto;
+    
+    /* padding-bottom: 20px; */
+}
+
+form input {
+    color: #ebeded;
+    border-color: #ebeded;
+    border-radius: 10.5px;
+    border-width: 2px;
+    margin-bottom: 10%;
+}
+
+button {
+    background-color: #fa6980;
+    text-align: center;
+    color: white;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 15px;
+    border: none;
+    border-radius: 12.5px;
+    width: 135px !important;
+}
 /* PARAGRAPH SECTION FLEXBOX */
 .flex-box {
     /* position: fixed; */
@@ -115,6 +169,7 @@ footer {
     bottom: 0;
     width: 100%;
     background: #a6adb4;
+    position: fixed;
     display: flex;
     height: 200px;
 }
@@ -157,3 +212,4 @@ i {
     color: white;
     margin-left: 4px;
 }
+
