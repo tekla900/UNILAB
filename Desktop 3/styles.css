@@ -9,7 +9,12 @@ body {
 	color: #1b1b32;
 	font-family: Helvetica;
 	margin: 0;
+    padding-top: 50px;
 }
+
+/* main {
+    padding-top: 50px;
+} */
 
 /* NAVBAR */
 header {
@@ -69,12 +74,13 @@ nav > ul > li {
     width: 50%;
     background-image: url(./world\ news/image.png);
     height: 590px;
-    padding-top: 15%;
+    /* padding-top: 15%; */
     color: white;
     text-align: center;
 }
 
 .flex1 h2 {
+    margin-top: 20%;
     margin-bottom: 2%;
     size: 32px;
 }
@@ -97,25 +103,28 @@ nav > ul > li {
     width: 50%;
     height: 590px;
     background-color: white;
-    padding-top: 15%;
+    /* padding-top: 15%; */
 }
 
 /* STYLES FOR FORM */
 form input, form label, form button {
-    width: 360px;
+    width: 80%;
     height: 40px;
     display: block;
     margin: auto auto;
-    
-    /* padding-bottom: 20px; */
+    /* margin-top: 10%; */
 }
 
+form label {
+    margin-top: 15%;
+}
 form input {
     color: #ebeded;
     border-color: #ebeded;
     border-radius: 10.5px;
     border-width: 2px;
-    margin-bottom: 10%;
+    /* margin-bottom: 10%; */
+    /* margin: 10% auto; */
 }
 
 button {
@@ -128,25 +137,45 @@ button {
     border: none;
     border-radius: 12.5px;
     width: 135px !important;
+    /* margin-top: 15%; */
 }
+
 /* PARAGRAPH SECTION FLEXBOX */
-.flex-box {
-    /* position: fixed; */
+.paragraph{
     display: flex;
-    /* top: 640px; */
+    /* position: relative; */
+    /* top: 550px; */
+    /* padding-top: 1240px; */
     height: 256px;
     width: 80%;
+    /* margin: 0 auto; */
     margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: -5%;
+    justify-content: space-between;
 }
 
 .paragraph1 {
-    width: 30%;
-    background-color: orange;
+    width: 33%;
 }
 
 .paragraph2 {
-    width: 70%;
-    background-color: brown;
+    width: 33%;
+    color: #a6adb4;
+}
+
+.paragraph3 {
+    width: 33%;
+    color: #a6adb4;
+}
+
+hr {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: red;
+    height: 2px;
+    border: none;
 }
 
 /* MAIN ARTICLE FLEXBOX */
@@ -158,9 +187,23 @@ button {
     height: 830px;
 }
 
-.image, .article {
+.image {
     height: 50%;
     width: 100%;
+}
+
+.image img {
+    max-width: 100%;
+}
+.article {
+    height: 50%;
+    width: 100%;
+    color: #a6adb4;
+}
+
+.article p {
+    margin-bottom: 4%;
+    line-height: 1.75;
 }
 
 /* FOOTER */
@@ -169,7 +212,7 @@ footer {
     bottom: 0;
     width: 100%;
     background: #a6adb4;
-    position: fixed;
+    /* position: fixed; */
     display: flex;
     height: 200px;
 }

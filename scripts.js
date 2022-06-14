@@ -23,3 +23,7 @@ function showSlides(n) {
   
   slides[slideIndex-1].style.display = "flex";
 }
+
+document.getElementById("myButton").onclick = function () {
+  location.href = "./Desktop\ 3/main.html";
+};
