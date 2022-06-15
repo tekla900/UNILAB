@@ -12,10 +12,6 @@ body {
     padding-top: 50px;
 }
 
-/* main {
-    padding-top: 50px;
-} */
-
 /* NAVBAR */
 header {
     height: 51px;
@@ -62,10 +58,9 @@ nav > ul > li {
 }
 
 /* WORLD NEWS SECTION FLEXBOX */
-
 .world-news {
     display: flex;
-    height: 590px;
+    height: 501px;
     width: 80%;
     margin: 0 auto; 
 }
@@ -73,8 +68,8 @@ nav > ul > li {
 .flex1 {
     width: 50%;
     background-image: url(./world\ news/image.png);
-    height: 590px;
-    /* padding-top: 15%; */
+    background-repeat: no-repeat;
+    height: 100%;
     color: white;
     text-align: center;
 }
@@ -101,9 +96,8 @@ nav > ul > li {
 
 .flex2 {
     width: 50%;
-    height: 590px;
+    height: 100%;
     background-color: white;
-    /* padding-top: 15%; */
 }
 
 /* STYLES FOR FORM */
@@ -112,7 +106,6 @@ form input, form label, form button {
     height: 40px;
     display: block;
     margin: auto auto;
-    /* margin-top: 10%; */
 }
 
 form label {
@@ -123,8 +116,6 @@ form input {
     border-color: #ebeded;
     border-radius: 10.5px;
     border-width: 2px;
-    /* margin-bottom: 10%; */
-    /* margin: 10% auto; */
 }
 
 button {
@@ -137,21 +128,14 @@ button {
     border: none;
     border-radius: 12.5px;
     width: 135px !important;
-    /* margin-top: 15%; */
 }
 
 /* PARAGRAPH SECTION FLEXBOX */
 .paragraph{
     display: flex;
-    /* position: relative; */
-    /* top: 550px; */
-    /* padding-top: 1240px; */
     height: 256px;
     width: 80%;
-    /* margin: 0 auto; */
-    margin: 0 auto;
-    margin-top: 40px;
-    margin-bottom: -5%;
+    margin: 70px auto;
     justify-content: space-between;
 }
 
@@ -171,10 +155,9 @@ button {
 
 hr {
     width: 80%;
-    margin: 0 auto;
-    margin-top: 20px;
-    background-color: red;
-    height: 2px;
+    margin: 20px auto;
+    background-color: #ebeded;
+    height: 4px;
     border: none;
 }
 
@@ -197,8 +180,9 @@ hr {
 }
 .article {
     height: 50%;
-    width: 100%;
+    width: 80%;
     color: #a6adb4;
+    margin-top: 85px;
 }
 
 .article p {
@@ -212,9 +196,9 @@ footer {
     bottom: 0;
     width: 100%;
     background: #a6adb4;
-    /* position: fixed; */
     display: flex;
     height: 200px;
+    margin-top: 85px;
 }
 
 footer div {
