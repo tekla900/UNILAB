@@ -12,6 +12,7 @@ body {
     width: 100%;
 }
 
+/* NAVBAR */
 header {
     height: 50px;
     width: 100%;
@@ -27,6 +28,7 @@ header {
 .void {
     width: 70%;
 }
+
 h1 {
     color:#fa6980 ;
     font-size: 13;
@@ -60,7 +62,7 @@ nav > ul > li {
     font-weight: bolder;
 }
 
-.news {
+/* .news {
     display: flex;
     flex-direction: row;
     height: 600px;
@@ -90,7 +92,7 @@ nav > ul > li {
 #places {
     padding:  20%;
     color: white;
-}
+} */
 
 h2 {
     font-size: 24;
@@ -114,7 +116,7 @@ button {
     border-radius: 12.5px;
 }
 
-#news-header > *{
+/* #news-header > *{
     display: inline;
 }
 
@@ -129,16 +131,16 @@ button {
 
 article > p, article > span, .fa-clock {
     color: #a6adb4;
-} 
+}  */
 
-#news-header {
+/* #news-header {
     display: flex;
     height: 70px;  
     flex-direction: row;
     justify-content: flex-end;
 }
-  
-#box-1 {
+   */
+/* #box-1 {
     width: 50%;
     height: 100%;
 }
@@ -154,8 +156,77 @@ article > p, article > span, .fa-clock {
     font-size: 20px;
     color: gray;
     font-weight: bold;
+} */
+  
+.news {
+    display: flex;
+    height: 600px;
+    width: 100%;
 }
   
+#flex-box-1 {
+    width: 50%;
+    height: 100%;
+    background-image: url("./news\ section/image.png");
+    color: white;
+}
+  
+#flex-box-2 {
+    width: 50%;
+    height: 100%;
+    padding: 60px;
+}
+
+#places {
+    margin: 170px 140px;
+}
+
+#places hr {
+    width: 75%;
+}
+
+h2 {
+    font-size: 24px;
+    text-align: left;
+}
+
+p {
+    font-size: 16px;
+    color: #a6adb4;
+}
+
+#box-1 > * {
+    display: inline;
+}
+
+#box-1 {
+    padding-bottom: 20px;
+    margin: 0 auto !important;
+    margin-left: 90px !important;
+}
+
+.card {
+    padding-top: 20px !important;
+    width: 80%;
+    margin: 0 auto !important;
+    margin-left: 70px !important;
+    border: none !important;
+}
+
+i {
+    color: #cbd0d3 !important;
+    display: inline;
+}
+
+.news span {
+    color: #cbd0d3;
+    display: inline;
+}
+
+.pink {
+    color: #fa6980;
+}
+
 
 a:hover {
     color: black;
@@ -170,7 +241,6 @@ a:hover {
 
 /* GRID CONTAINER OF SECTION HAPPENING NOW */
 .parent {
-    /* padding-top: 40px; */
     margin: auto 0;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
@@ -285,8 +355,19 @@ footer input {
     border: none !important;
 }
 
-i {
-    color: white;
-    margin-left: 4px !important;
+
+/* Tablet */
+@media only screen and (max-width: 770px) {
+    
 }
 
+/* Mobile */
+@media only screen and (max-width: 370px) {
+    
+}
+
+
+
+.clock-and-time {
+    display: inline;
+}
