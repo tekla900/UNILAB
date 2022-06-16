@@ -9,21 +9,26 @@ body {
 	color: #1b1b32;
 	font-family: Helvetica;
 	margin: 0;
+    width: 100%;
 }
 
 header {
-    height: 51px;
+    height: 50px;
     width: 100%;
     background-color: #f6f8f9;
-    display: flex;
+    display: flex !important;
     justify-content: flex-end;
     align-items: center;
     position: fixed;
     top: 0;
+    z-index: 9;
 }
 
+.void {
+    width: 70%;
+}
 h1 {
-    color:#fa6980;
+    color:#fa6980 ;
     font-size: 13;
 }
 
@@ -61,6 +66,10 @@ nav > ul > li {
     height: 600px;
     position: relative;
     top: 50px;
+}
+
+.container {
+    margin-top: 5%;
 }
 
 #flex-box-1 {
@@ -152,60 +161,16 @@ a:hover {
     color: black;
 }
 
-
-/* FOOTER */
-footer {
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background: #a6adb4;
-    display: flex;
-    height: 200px;
-}
-
-footer div {
-    margin-left: 5%;
-    padding: 50px 0;
-}
-
-.col-4 {
-    margin-right: 10%;
-}
-  
-footer ul {
-    list-style: none;
-}
-  
-footer li {
-    margin-bottom: 4px;
-    color: #cbd0d3;
-    font-size: 13px;
-}
-
-footer h3 {
-    color: white;
-    font-size: 13px;
-}
-
-footer p {
-    color: #cbd0d3;
-    font-size: 11px;
-}
-  
-footer input {
-    width: 100%;
+.btn > i {
+    color: black;
+    font-weight: bolder;
     border: none;
-}
-
-i {
-    color: white;
-    margin-left: 4px;
 }
 
 
 /* GRID CONTAINER OF SECTION HAPPENING NOW */
 .parent {
-    padding-top: 40px;
+    /* padding-top: 40px; */
     margin: auto 0;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
@@ -225,10 +190,12 @@ i {
     background-image: url("./happening\ now/image.png");
     height: 430px;
     color: white;
+    background-repeat: no-repeat;
+    height: 100%;
 }
   
 .div1 h2, .div2 h2{
-    padding-top: 40%;
+    padding-top: 30%;
 }
 
 
@@ -246,6 +213,8 @@ i {
     grid-area: 4 / 1 / 7 / 4; 
     background-image: url("./happening\ now/image\ (1).png");
     color: white;
+    background-repeat: no-repeat;
+    height: 100%;
 }
   
 .div3 { 
@@ -272,44 +241,52 @@ i {
 }
 
 
-/* SECTION TRENDING */
-
-#trending {
-    /* position: absolute;
-    top: 650px; */
-    padding-top: 90px;
-}
-#trending > h2 {
-    padding-left: 175px;
-}
-
-/* #this {
-    background-color: #1394d4;
-} */
-
-
-.container-img {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-around;
+/* FOOTER */
+footer {
+    left: 0 !important;
+    bottom: 0 !important;
+    width: 100% !important;
+    background: #a6adb4;
+    display: flex !important;
+    height: 200px !important;
 }
 
-.box1, .box2, .box3 {
-    margin: 10px;
+footer div {
+    margin-left: 5% !important;
+    padding: 50px 0 !important;
 }
 
-.trending-boxes {
-    background-color: white;
-    width: 360px;
-    padding: 30px;
+.colon-4 {
+    margin-right: 10% !important;
+}
+  
+footer ul {
+    list-style: none !important;
+}
+  
+footer li {
+    margin-bottom: 4px !important;
+    color: #cbd0d3 !important;
+    font-size: 13px !important;
 }
 
-.container-img h2 {
-    margin-bottom: 10px;
+footer h3 {
+    color: white !important;
+    font-size: 13px !important;
 }
 
-.container-img p, .container-img span {
-    margin-bottom: 10px;
-    color: #a6adb4;
+footer p {
+    color: #cbd0d3 !important;
+    font-size: 11px !important;
 }
+  
+footer input {
+    width: 100% !important;
+    border: none !important;
+}
+
+i {
+    color: white;
+    margin-left: 4px !important;
+}
+

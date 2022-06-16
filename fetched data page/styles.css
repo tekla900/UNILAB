@@ -66,6 +66,10 @@ main {
     padding: 3%;
 }
 
+p {
+    color: #a6adb4;
+}
+
 /* FOOTER */
 footer {
     left: 0;
@@ -115,3 +119,5 @@ i {
     color: white;
     margin-left: 4px;
 }
+
+/*  */

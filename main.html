@@ -7,11 +7,12 @@
     <title>UniLab</title>
     <script src="https://kit.fontawesome.com/b51b7dd055.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles.css" />
-    <!-- <script src="./scripts.js"></script> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   </head>
   <body>
     <header>
        <h1 id="logo" class="bold">LOGO</h1>
+       <div class="void"></div>
        <nav>
            <ul>
                <li><a class="bold">HOME</a></li>
@@ -65,12 +66,28 @@
         </section>
 
         <!-- <div class="section-flex"> -->
-          <section id="trending">
+          <!-- <section id="trending">
             <h2>TRENDING</h2>
             <div class='container-img'>
 
               <div class='box1 mySlides fade'>
                 <img src='./trending/Image.png' />
+                <div class='trending-boxes'>
+                <h2>Dolore magna aliqua</h2>
+                <p>Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.</p>
+                <i class="fa-regular fa-clock"></i>
+                <span>2m ago</span>
+              </div>
+
+              <img src='./trending/Image.png' />
+                <div class='trending-boxes'>
+                <h2>Dolore magna aliqua</h2>
+                <p>Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.</p>
+                <i class="fa-regular fa-clock"></i>
+                <span>2m ago</span>
+              </div>
+
+              <img src='./trending/Image.png' />
                 <div class='trending-boxes'>
                 <h2>Dolore magna aliqua</h2>
                 <p>Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.</p>
@@ -88,10 +105,42 @@
                 <i class="fa-regular fa-clock"></i>
                 <span>2m ago</span>
               </div>    
+
+              <img src="./trending/annie-spratt-216507-unsplash.png" />
+                <div class="trending-boxes">
+                <h2>Morbi eleifend a libero</h2>
+                <p>Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.</p>
+                <i class="fa-regular fa-clock"></i>
+                <span>2m ago</span>
+              </div> 
+
+              <img src="./trending/annie-spratt-216507-unsplash.png" />
+                <div class="trending-boxes">
+                <h2>Morbi eleifend a libero</h2>
+                <p>Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.</p>
+                <i class="fa-regular fa-clock"></i>
+                <span>2m ago</span>
+              </div> 
             </div>
 
               <div class='box3 mySlides fade'>
                 <img src='./trending/carlos-hevia-628890-unsplash.png' />     
+                <div class="trending-boxes">
+                <h2>Morbi eleifend a libero</h2>
+                <p>Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.</p>
+                <i class="fa-regular fa-clock"></i>
+                <span>2m ago</span>
+              </div>
+
+              <img src='./trending/carlos-hevia-628890-unsplash.png' />     
+                <div class="trending-boxes">
+                <h2>Morbi eleifend a libero</h2>
+                <p>Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.</p>
+                <i class="fa-regular fa-clock"></i>
+                <span>2m ago</span>
+              </div>
+
+              <img src='./trending/carlos-hevia-628890-unsplash.png' />     
                 <div class="trending-boxes">
                 <h2>Morbi eleifend a libero</h2>
                 <p>Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.</p>
@@ -105,8 +154,112 @@
               <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
               <a class="next" onclick="plusSlides(1)">&#10095;</a>
             </div>
-        </section>
-
+        </section> -->
+        <section class="pt-5 pb-5">
+          <div class="container">
+              <div class="row">
+                  <div class="col-6">
+                      <h3 class="mb-3" class="bold">TRENDING</h3>
+                  </div>
+                  <div class="col-6 text-right">
+                      <a class="btn" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+                        <i class="fa-solid fa-angle-left"></i>
+                      </a>
+                      <a class="btn" href="#carouselExampleIndicators2" role="button" data-slide="next">
+                        <i class="fa-solid fa-angle-right"></i>
+                      </a>
+                  </div>
+                  <div class="col-12">
+                      <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel" data-interval="false">
+      
+                          <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                  <div class="row">
+      
+                                      <div class="col-md-4 mb-3">
+                                          <div class="card">
+                                              <img class="img-fluid" alt="100%x280" src="./trending/Image.png">
+                                              <div class="card-body">
+                                                  <h4 class="card-title bold">Dolore magna aliqua</h4>
+                                                  <p class="card-text">Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.</p>
+                                                  <i class="fa-regular fa-clock"></i>
+                                                  <span>2 mins ago</span>
+                                              </div>
+      
+                                          </div>
+                                      </div>
+                                      <div class="col-md-4 mb-3">
+                                          <div class="card">
+                                              <img class="img-fluid" alt="100%x280" src="./trending/annie-spratt-216507-unsplash.png" >
+                                              <div class="card-body">
+                                                  <h4 class="card-title bold">Morbi eleifend a libero</h4>
+                                                  <p class="card-text">Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.</p>
+                                                  <i class="fa-regular fa-clock"></i>
+                                                  <span>2 mins ago</span>
+                                              </div>
+                                          </div>
+                                      </div>
+                                      <div class="col-md-4 mb-3">
+                                          <div class="card">
+                                              <img class="img-fluid" alt="100%x280" src="./trending/carlos-hevia-628890-unsplash.png">
+                                              <div class="card-body">
+                                                  <h4 class="card-title bold">Morbi eleifend a libero</h4>
+                                                  <p class="card-text">Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.</p>
+                                                  <i class="fa-regular fa-clock"></i>
+                                                  <span>2 mins ago</span>
+                                              </div>
+                                          </div>
+                                      </div>
+      
+                                  </div>
+                              </div>
+                              <div class="carousel-item">
+                                  <div class="row">
+      
+                                      <div class="col-md-4 mb-3">
+                                          <div class="card">
+                                              <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1532771098148-525cefe10c23?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=3f317c1f7a16116dec454fbc267dd8e4">
+                                              <div class="card-body">
+                                                  <h4 class="card-title bold">Dolore magna aliqua</h4>
+                                                  <p class="card-text">Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.</p>
+                                                  <i class="fa-regular fa-clock"></i>
+                                                  <span>2 mins ago</span>
+                                              </div>
+      
+                                          </div>
+                                      </div>
+                                      <div class="col-md-4 mb-3">
+                                          <div class="card">
+                                              <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1532715088550-62f09305f765?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=ebadb044b374504ef8e81bdec4d0e840">
+                                              <div class="card-body">
+                                                  <h4 class="card-title bold">Dolore magna aliqua</h4>
+                                                  <p class="card-text">Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.</p>
+                                                  <i class="fa-regular fa-clock"></i>
+                                                  <span>2 mins ago</span>
+                                              </div>
+                                          </div>
+                                      </div>
+                                      <div class="col-md-4 mb-3">
+                                          <div class="card">
+                                              <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=0754ab085804ae8a3b562548e6b4aa2e">
+                                              <div class="card-body">
+                                                  <h4 class="card-title bold">Morbi eleifend a libero</h4>
+                                                  <p class="card-text">Lorem ipsum dolor sit amet, ipsum labitur lucilius mel id, ad has appareat.</p>
+                                                  <i class="fa-regular fa-clock"></i>
+                                                  <span>2 mins ago</span>
+                                              </div>
+                                          </div>
+                                      </div>
+      
+                                  </div>
+                              </div>
+                              
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
         <section id="happening-now">
             <h2>HAPPENING NOW</h2>
             <div class="parent">
@@ -154,10 +307,10 @@
         </section>
         <!-- </div> -->
         <footer>
-            <div class="col-1">
+            <div class="colon-1">
                 <h3>LOGO</h3>
               </div>
-              <div class="col-2">
+              <div class="colon-2">
                 <ul>
                   <li>HOME</li>
                   <li>DISCOVERY</li>
@@ -165,7 +318,7 @@
                   <li>CONTACT</li>
                 </ul>
               </div>
-              <div class="col-3">
+              <div class="colon-3">
                  <ul>
                   <li>ABOUT</li>
                   <li>HELP</li>
@@ -173,7 +326,7 @@
                   <li>GUIDLINES</li>
                 </ul>
               </div>
-              <div class='col-4'>
+              <div class='colon-4'>
                 <ul>
                   <li>TESTIMONIALS</li>
                   <li>ADVERTISE</li>
@@ -181,13 +334,13 @@
                   <li>CARRERS</li>
                 </ul>
               </div>
-              <div class='col-5'>
+              <div class='colon-5'>
                 <form>
                   <input type='email'/>
                 </form>
                 <p>Stay in touch with us for the freshest products!</p>
               </div>
-              <div class='col-7'>
+              <div class='colon-7'>
                 <i class="fa-brands fa-instagram"></i>
                 <i class="fa-brands fa-twitter"></i>
                 <i class="fa-brands fa-facebook-f"></i>
@@ -197,5 +350,8 @@
     </main>
     
     <script src="./scripts.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>    
   </body>
 </html>
