@@ -11,16 +11,21 @@
   </head>
   <body>
     <header>
+      <div class="topnav" id="myTopnav">
         <h1 id="logo" class="bold">LOGO</h1>
         <nav>
-            <ul>
+            <ul id="myLinks">
                 <li><a class="bold">HOME</a></li>
                 <li><a class="bold">DISCOVERY</a></li>
                 <li><a class="bold">PHOTOS</a></li>
                 <li><a class="bold">CONTACT</a></li>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                  <i class="fa fa-bars"></i>
+                </a>
             </ul>
         </nav>
         <img src="./header/christopher-cam.png" alt='profile pic sample' id='profile-pic' />
+        </div>
      </header>
      <main>
      <section class="flex-box world-news">
@@ -53,10 +58,11 @@
         </div>
         <div class="paragraph-flex">
         <div class="paragraph2">
-            <p>Dignissim rutrum ridiculus lacinia phasellus torquent ad aliquet, nisi dictum cubilia class habitasse commodo, semper potenti nec ac per egestas. Ac volutpat ullamcorper phasellus montes sollicitudin litora ridiculus mi conubia inceptos euismod odio curabi</p>
+            <p>Lorem ipsum dolor sit amet, consectetur opikhfkseo adipisifwcing elit, sed do eiusmod temporeop iodkjnl incididunt ut labore et dolore roipi magnaropi aliquia. Ut enim ad minim veeniam, quiswepo nostruklad uio exercitation ullamco laboris nisi ut aliquip ex eawiopl commodo consequat. Duis ropil aute irure dolor inop reprehenderit in tufpoyiopy voluptate velit esse plijxn cillum dolore eu fugiatupi nulla parieratur. Excepteuri sint.
+              laborum.  sit voluptartem accusantium polu doloremquep laudantium, totam re veritatis etl quasi ropeior architecto opil beatae vitae dictaeol sunt explicabo.</p>
         </div>
         <div class="paragraph3">
-            <p>Nascetur himenaeos morbi gravida porta sapien justo aliquam pellentesque dapibus curae, cursus ultrices suspendisse cras ligula id aenean vulputate taciti, eleifend eros bibendum scelerisque lobortis venenatis nulla tristique tempus. Quisque eleifend vulpu</p>
+            <p>Nascetur himenaeos morbi gravida. Sed ut perspiciatis unde omnis iste natuswi error rem aperiam, eaque ipsa quae ab illo invento Culpa qui officia deserunt mollit anim id estio ropiluyl porta sapien justo aliquam pellentesque dapibus curae, cursus ultrices suspendisse cras ligula id aenean vulputate taciti, eleifend eros bibendum scelerisque lobortis venenatis nulla tristique tempus. Quisque eleifend vulpu</p>
             <i class="fa-regular fa-clock"></i>
             <span>2 mins ago</span>
         </div>
@@ -78,18 +84,19 @@
      <hr id="that-specific-hr">
      </main>
     <footer>
-        <div class="col-1">
+
+        <div class="col-1 first-box">
             <h3>LOGO</h3>
           </div>
-          <div class="col-2">
+          <div class="col-2 sec-box">
             <ul>
               <li>HOME</li>
               <li>DISCOVERY</li>
               <li>PHOTOS</li>
               <li>CONTACT</li>
             </ul>
-          </div>
-          <div class="col-3">
+          </div> 
+          <div class="col-3 sec-box">
              <ul>
               <li>ABOUT</li>
               <li>HELP</li>
@@ -97,7 +104,7 @@
               <li>GUIDLINES</li>
             </ul>
           </div>
-          <div class='col-4'>
+          <div class='col-4 sec-box'>
             <ul>
               <li>TESTIMONIALS</li>
               <li>ADVERTISE</li>
@@ -105,13 +112,13 @@
               <li>CARRERS</li>
             </ul>
           </div>
-          <div class='col-5'>
+          <div class='col-5 first-box'>
             <form>
               <input type='email'/>
             </form>
             <p>Stay in touch with us for the freshest products!</p>
           </div>
-          <div class='col-7'>
+          <div class='col-7 sec-box'>
             <i class="fa-brands fa-instagram"></i>
             <i class="fa-brands fa-twitter"></i>
             <i class="fa-brands fa-facebook-f"></i>
@@ -119,5 +126,15 @@
           </div>
     </footer>
   <!-- </main> -->
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+    </script>
   </body>
 </html>
