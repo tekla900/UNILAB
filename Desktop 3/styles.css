@@ -15,6 +15,10 @@ main {
     margin-bottom: 140px;
 }
 
+#logo {
+    color:#fa6980;
+}
+
 /* NAVBAR */
 header {
     height: 51px;
@@ -104,7 +108,7 @@ nav > ul > li {
 }
 
 .hidden {
-    display: none ;
+    display: none;
 }
 
 /* STYLES FOR FORM */
@@ -144,6 +148,7 @@ button {
     width: 80%;
     margin: 70px auto;
     justify-content: space-between;
+    flex-direction: row;
 }
 
 .paragraph1 {
@@ -159,6 +164,27 @@ button {
     width: 33%;
     color: #a6adb4;
 }
+
+
+.paragraph {
+    height: 250px;
+    flex-direction: row;
+}
+
+.paragraph-flex {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.paragraph2 {
+    width: 50%;
+    margin-right: 20px;
+}
+.paragraph3 {
+    width: 50%;
+}
+
 
 hr {
     width: 80%;
@@ -246,6 +272,11 @@ i {
     margin-left: 4px;
 }
 
+a {
+    color: #343638;
+    text-decoration: none;
+}
+
 /* TABLET */
 @media only screen and (max-width: 770px) {
     .world-news {
@@ -327,9 +358,6 @@ i {
         padding-top: 20px;
         display: flex;
         flex-direction: column;
-        /* justify-content: space-between; */
-        /* background-color: #dadeaf; */
-        /* width: 100% !important; */
     }
 
     .paragraph1 {
@@ -357,19 +385,6 @@ i {
     footer {
         display: none;
     }
-    /* header {
-        overflow: hidden;
-        background-color: #333;
-        position: relative;
-    }
-    header ul, #logo, #profile-pic {
-        display: none;
-    }
-    .hidden {
-        display: block !important;
-    }
-    .ham-menu {
-        display: block !important;
-        color: rebeccapurple
-    } */
+  
 }
+

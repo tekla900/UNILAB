@@ -51,6 +51,12 @@ main {
     margin-top: 80px;
 }
 
+
+a {
+    color: #343638;
+    text-decoration: none;
+}
+
 .users {
     display: flex;
     flex-flow: row wrap;
