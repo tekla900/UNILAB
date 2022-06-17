@@ -97,7 +97,7 @@ button {
 #flex-box-1 {
     width: 50%;
     height: 100%;
-    background-image: url("./news\ section/image.png");
+    background-image: url("./news/Image.png");
     color: white;
 }
   
@@ -187,7 +187,7 @@ a:hover {
   
 .div1 { 
     grid-area: 1 / 1 / 4 / 4; 
-    background-image: url("./happening\ now/image.png");
+    background-image: url("./happening\ now/Image.png");
     height: 430px;
     color: white;
     background-repeat: no-repeat;
@@ -211,7 +211,7 @@ a:hover {
 
 .div2 { 
     grid-area: 4 / 1 / 7 / 4; 
-    background-image: url("./happening\ now/image\ (1).png");
+    background-image: url("./happening\ now/Image\ (1).png");
     color: white;
     background-repeat: no-repeat;
     height: 100%;
